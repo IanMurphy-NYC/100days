@@ -12,4 +12,5 @@ for i in range(len(student_heights)):
   total += student_heights[i]
   i+=1
 average = total/len(student_heights)
-print("The average height is "+ str(average))
+rounded = round(average)
+print("The average height is "+ str(rounded))
